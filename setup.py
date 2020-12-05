@@ -23,13 +23,13 @@ setuptools.setup(
 
     install_requires=[
         "aiohttp>=3",
-        "telethon>=1.10",
+        "telethon>=1.18",
         "yarl>=1",
     ],
     extras_require={
         "fast": ["cryptg>=0.2"],
     },
-    python_requires="~=3.7",
+    python_requires="~=3.8.5",
 
     classifiers=[
         "Development Status :: 4 - Beta",
